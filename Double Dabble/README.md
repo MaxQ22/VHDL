@@ -10,7 +10,7 @@ The Repository includes two files, one is the source file of the Doubble Dabble 
 
 When running the simulation, the following result is expected. Note, that both signals are shown in hexadecimal radix, but as the output is a BCD representation, it appears as if it is a decimal number.
 
- ![Simulation Screenshot](/Simulation_Result.PNG)
+ ![Simulation Screenshot](Simulation_Result.PNG)
 
 
 
