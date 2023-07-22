@@ -5,9 +5,10 @@ This VHDL entity implements an 8th order FIR filter. The filter has a signed 12 
 
 ### Filter Design
 The Filter is designed, using the fir1 filter design function of Matlab, to generate filte coefficients for a Hamming-based filter. The chose filter values to test the VHDL FIR code are a sample rate of 1kHz and a cut off frequency of 150 Hz in this example. The filter coefficients are then multiplied by 1024, as the filter implementation in VHDL works with 10 binary decimals. The following graph shows the bode diagram of the filter:
+
  ![Filter Bode Diagram](Filter_Bode.PNG)
 
- The filter coefficients, found in the b vector are then implemented 
+ The filter coefficients, found in the b vector are then implemented in VHDL to realize the filter.
 
 ### Filter Simulation
 After filter design, the filter is simulated in Simulink. For this, a model of a transposed FIR filter is used. The following graph shows the filter block diagram:
