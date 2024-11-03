@@ -16,7 +16,7 @@ The FIR filter structure from the 8th Order FIR Filter folder can be re-used to 
   ![Filter Bode Diagram](Moving_Avarage_FIR_VHDL_Behavioral_Simulation.PNG)
 
 
-## Recursice Implementation
+## Recursive Implementation
 The Moving Average Filter can also be implemented recursively, as shown in the following block diagram:
   ![Filter Bode Diagram](Recursive_Moving_Average.PNG)
 
